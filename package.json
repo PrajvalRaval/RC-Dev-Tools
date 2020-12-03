@@ -1,0 +1,19 @@
+{
+  "name": "user-creator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generateUsers.js",
+  "scripts": {
+    "users": "node generateUsers",
+    "messages": "node sendMessages",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "random-words": "^1.1.1"
+  }
+}
